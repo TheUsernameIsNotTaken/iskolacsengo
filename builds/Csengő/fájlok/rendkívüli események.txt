@@ -1,0 +1,7 @@
+nap	esemény
+2018.01.14	E4
+2018.02.07	rövidített
+2018.02.08	szabadnap
+2018.02.15	tanítunk
+2018.02.15	rövidített
+2018.03.17	E3

@@ -1,0 +1,219 @@
+<HTML>
+<HEAD>
+<TITLE>Csengõ.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="Cseng_.vi"></A><H2>Csengõ.vi</H2>
+<P>Az alkalmazás képes egy iskolai csengõ szerepét betölteni, csengetés hangot lejátszva a  szükséges idõpontokban, figyelembe véve az aktuális tanév rendjét(ezt minden tanévben egyszer be kell állítani). Ezentúl beállítható, hogy a rendes, vagy a rövidített csengetési rend legyen érvényes egy adott napon. A szoftverben továbbá beállíthatóak olyan napok, mikor csak az elsõ n óra van megtartva. Segítségével egyszerûen, olcsón, az iskolarádióval egybevonva üzemeltethetõ az iskolacsengõ.  A szoftver ezek mellett tûzriadó és bombariadó esetén képes riadójelzést sugározni.</P>
+<P></P>
+<P>A mûködéssel kapcsolatos bõvebb információkért nyissa meg az alkalmazáson belül is megnyitható, az alkalmazás saját &quot;Olvass el!&quot; fájlát.</P>
+<P><IMG SRC="Csengõc.png" ALT="Csengõ.vi"></P>
+<P><IMG SRC="Csengõp.png" ALT="Csengõ.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Tûzriadó</B> <P>A gomb bekapcsolásától a gomb kikapcsolásáíg tûzjelzõ hangot ad ki, a bekapcsolt állapotát lámpa jelzi.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Bombariadó</B> <P>A gomb bekapcsolásától a gomb kikapcsolásáig bombariadót fúj, a bekapcsolt állapotát lámpa jelzi.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Rövidített óra</B> <P>A vezérlõ e gomb megnyomásával azonnal rövidített csengetési rendre állíthatja a csengõk mûködését, a bekapcsolt állapotát lámpa jelzi. Éjfélkor automatikusan kikapcsol.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Módosítás</B> <P> A módosítás gomb segítségével változtathatjuk meg az elõre beírt tanévvel kapcsolatos adatokat. Megnyitja az ezeket a fájlokat tartalmazó mappát.s</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Leállítás</B> <P>A gomb használatával leállítható az teljes program</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Segítség</B> <P>Az olvass el fájlt nyitja meg jegyzettömbben, mi tartalmazza a szoftver használati útmutatóját.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Tûzriadó LED</B> <P>Jelzi, hogy van-e tûzriadó, vagy nincs. A tûzriadó bekapcsolható a tûzriadó kapcsolóval.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Bombariadó LED</B> <P>Jelzi, hogy van-e bombariadó, vagy nincs. A bombariadó bekapcsolható a bombariadó kapcsolóval.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Rövidített óra led</B> <P>Jelzi, hogy melyik csengetési mód érvényes. Ha nem világitt, akkor a normál, ha pedig világít, akkor pedig a rövidített csengetési rend van érvényben.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="i2dstr.png" ALT="i2dstr"></P>
+</TD>
+<TD>
+<B>Szünetek</B> <P>Az elõre bejegyzett tanítási szüneteket tartalmazza (ezáltal a szünidõben nem lesznek felesleges csengetések), amelyek természetesen a &quot;Módosítások&quot; gomb segítségével könnyen és gyorsan javíthatóak.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>Szünet adatok</B> <P><B>Minden sor</B> a &quot;tanév rendje.txt&quot; fájl adata. A szünetek kezdõ és záró dátumait tartalmazzák.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="i2dstr.png" ALT="i2dstr"></P>
+</TD>
+<TD>
+<B>Csengetési rend</B> <P>Segítségével könnyen el lehet igazodni a csengetések között. Mindig az adott napra érvényes csengetési rendet írja ki.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>Csengetési rend</B> <P><B>Minden sor</B> a &quot;normál.txt&quot; vagy a &quot;rövidített.txt&quot; fáljban szereplõ órák be és kicsengetési ideljét tartalmazza.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Tanítási nap</B> <P>Ha világít, akkor  mai napon tanítás zajlik.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>Napi max Óraszám:</B> <P>Kiírja, hogy az adott nap maximum hány tanóra lesz, amennyiben csökkentett óraszám van.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Munkaszüneti nap/ Szünet</B> <P>A mai napon a tanítás szünetel, a csengõk nem üzemelnek.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B> Csengõ</B> <P>Jelen pillanatban mûködik-e az órák eleji és végi csengõ (ha világít, de nem szól a csengõ, valószínüleg nem a programban van a hiba).s</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B> Jelzõcsengõ</B> <P>Jelen pillanatban mûködik-e a jelzõcsengõ(ha világít, de nem szól a csengõ, valószínüleg nem a programban van a hiba).</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Kevesebb tanóra</B> <P>Megmutatja, hogy az adott nap kevesebb óra lesz-e megtartva az átlagosnál.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Speciális tanítás</B> <P>Állapota jelzi, hogy valamilyen speciális tanítási rend van-e érvényben, vagy nincs.</P>
+</TD>
+</TR>
+</Table>
+</BODY>
+</HTML>
