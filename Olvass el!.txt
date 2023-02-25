@@ -1,0 +1,30 @@
+Iskolacsengõ Program
+
+Ez a program két fõ alkalmazás felülettek rendelkezik, Manuális vezérlés és Táblázatok nevû palettával.
+Manuális vezérlés:
+"Módosítás" gomb: A módosítás gomb segítségével változtathatjuk meg az elõre beírt adatokat
+"Leállítás" gomb: A gomb használatával leállítható az teljes program
+"Rövidített óra" gomb: A vezérlõ e gomb megnyomásával azonnal rövidített üzemmódra állíthatja a csengõket, a bekapcsolt állapotát lámpa jelzi 
+(Éjfélkor automatikusan kikapcsol)
+"Tûzriadó" gomb: A gomb bekapcsolásától a gomb kikapcsolásáíg tûzjelzõ hangot ad ki, a bekapcsolt állapotát lámpa jelzi
+"Bombariadó" gomb: A gomb bekapcsolásától a gomb kikapcsolásáig bombariadót fúj, a bekapcsolt állapotát lámpa jelzi
+Ezen a felületen még egy "Speciális tanítás" lámpa van, mely akkor világít, ha nem normál tanítás zajlik.
+
+Táblázatok:
+
+Ezen részen láthatóak a Csengetési rendek (rövidített óra esetén automatikusan átvált) melyek segítségével könnyen el lehet igazodni a csengetések között
+Valamint egy "Szünetek" nevû táblázat, ami az elõre bejegyzett szüneteket tartalmazza(ezáltal a szünidõben nem lesznek felesleges csengetések)
+amelyek természetesen a "Módosítások" gomb segítségével könnyen és gyorsan javíthatóak.
+
+Az alkalmazás átláthatóságának könnyítése érdekében a felület jobb oldalán 5 led helyezkedik el.
+Ezek leolvasásával nyomon követhetjük, hogy az adott napon milyen rendkívüli események, folyamatok befolyásolják a programot:
+
+1. Tanitási nap: A mai napon tanítás zajlik.
+2. Munkaszüneti nap/ Szünet: A mai napon nincs tanítás, a csengõk nem üzemelnek.
+3. Csengõ: Jelen pillanatban mûködik-e a csengõ(ha világít, de nem szól a csengõ, valószínüleg nem a programban van a hiba).
+4. Jelzõcsengõ: Jelen pillanatban mûködik-e a jelzõcsengõ(ha világít, de nem szól a csengõ, valószínüleg nem a programban van a hiba).
+5. Kevesebb tanóra: Megmutatja, hogy az adott nap kevesebb óra lesz-e megtartva az elõírtnál(alatta kiírja, hogy az adott nap maximum hány tanóra lesz)
+
+FIGYELEM!!! A "fájlok" mappában található adatokat a program megfelelõ mûködése érdekében semmiképp se nevezze át vagy törölje.
+
+Köszönet: Köszönet Kajtár Gergõnek és Kajtár Bencének, volt Huszár Gál Gimnáziumos Tanulóknak a segítségért a Design, a Programdokumentáció, és a Tesztelés területén és Vizi Tibor tanárúrnak az egész éves munkáért.
