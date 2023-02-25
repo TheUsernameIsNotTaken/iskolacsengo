@@ -32,7 +32,7 @@ Ezek leolvasásával nyomon követhetjük, hogy az adott napon milyen rendkívü
 4. Jelzőcsengő: Jelen pillanatban működik-e a jelzőcsengő(ha világít, de nem szól a csengő, valószínüleg nem a programban van a hiba).
 5. Kevesebb tanóra: Megmutatja, hogy az adott nap kevesebb óra lesz-e megtartva az előírtnál(alatta kiírja, hogy az adott nap maximum hány tanóra lesz)
 
-##**_FIGYELEM!!!_**
+## **_FIGYELEM!!!_**
 A `fájlok` mappában található adatokat a program megfelelő működése érdekében semmiképp se nevezze át vagy törölje.
 
 ## Köszönet
